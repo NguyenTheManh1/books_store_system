@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   has_many :orders, dependent: :destroy
   has_many :reviews, dependent: :destroy
+  before_save :downcase_email
   enum role: {customer: 0, admin: 1}
   validates :name, presence: true,
     length: {maximum: Settings.maximum_length_name}
@@ -16,4 +17,10 @@ class User < ApplicationRecord
     length: {maximum: Settings.maximum_length_address}
   validates :phone, presence: true,
     length: {maximum: Settings.maximum_length_phone}
+
+  private
+
+  def downcase_email
+    email.downcase!
+  end
 end

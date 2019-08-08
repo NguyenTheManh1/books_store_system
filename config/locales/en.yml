@@ -16,6 +16,25 @@ en:
       shopping_guide: Shopping guide
       transportation_method: Transportation method
       payment_method: Payment_method
+  shared:
+    error_messages:
+      errors_count:
+        one: 1 error
+        other: "%{count} errors"
   static_pages:
     home:
       homepage: Book store online
+  users:
+    form:
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password confirmation
+      create: Create my account
+      address: Address
+      phone: Phone
+    new:
+      sign: Sign up
+      create: Create account
+  signup_suc: Account was create!
+  danger: Signup failse

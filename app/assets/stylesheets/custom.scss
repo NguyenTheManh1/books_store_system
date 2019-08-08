@@ -33,6 +33,7 @@
       padding-bottom: 6.5px;
     }
     .login{
+      margin-left: 5px;
       display: inline-block;
       width: 35%;
       height: 100%;
@@ -52,7 +53,7 @@
       }
     }
     .cart_big{
-      padding-left: 20px;
+      padding-left: 8px;
       display: inline-block;
       width: 60%;
       height: 100%;
@@ -238,4 +239,18 @@
     }
   }
 }
-
+.field{
+  margin-bottom: 10px;
+}
+.btn_custom{
+    width: 150px;
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    height: 40px;
+    font-size: 16px;
+    &:hover{
+      background-color: yellowgreen;
+    }
+  }

@@ -16,6 +16,25 @@ vi:
       shopping_guide: Hướng dẫn mua hàng
       transportation_method: Phương thức vận chuyển
       payment_method: Phương thức thanh toán
+  shared:
+    error_messages:
+      errors_count:
+          one: 1 lỗi
+          other: "%{count} lỗi"
   static_pages:
     home:
       homepage: Website mua sách online được yêu thích nhất
+  users:
+    form:
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      create: Tạo tài khoản
+      address: Địa chỉ
+      phone: Số điện thoại
+    new:
+      sign: Đăng ký
+      create: Tạo tài khoản
+  signup_suc: Đăng ký thành công!
+  danger: Đăng ký thất bại!
